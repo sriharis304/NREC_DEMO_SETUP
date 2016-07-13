@@ -1,0 +1,6 @@
+16:50:20 **** Auto Build of configuration Debug for project arm_masking ****
+make all 
+make: Nothing to be done for `all'.
+
+16:50:21 Build Finished (took 107ms)
+

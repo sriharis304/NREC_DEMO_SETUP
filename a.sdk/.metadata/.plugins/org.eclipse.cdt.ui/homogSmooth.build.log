@@ -1,0 +1,81 @@
+16:50:43 **** Auto Build of configuration Debug for project homogSmooth ****
+make all 
+Building file: ../src/MaskCreator.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MaskCreator.o" -I../../homogSmooth_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MaskCreator.d" -MT"src/MaskCreator.d" -o "src/MaskCreator.o" "../src/MaskCreator.c"
+In file included from ../src/MaskCreator.c:69:0:
+../../homogSmooth_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../homogSmooth_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/MaskCreator.c:70:0:
+../../homogSmooth_bsp/ps7_cortexa9_0/include/xparameters.h:393:38: warning: initialization makes pointer from integer without a cast
+ #define XPAR_PS7_SCUTIMER_0_BASEADDR 0xF8F00600
+                                      ^
+../src/MaskCreator.c:138:34: note: in expansion of macro 'XPAR_PS7_SCUTIMER_0_BASEADDR'
+ unsigned int * const TIMER_PTR = XPAR_PS7_SCUTIMER_0_BASEADDR + 0x04;
+                                  ^
+../../homogSmooth_bsp/ps7_cortexa9_0/include/xparameters.h:393:38: warning: initialization makes pointer from integer without a cast
+ #define XPAR_PS7_SCUTIMER_0_BASEADDR 0xF8F00600
+                                      ^
+../src/MaskCreator.c:139:41: note: in expansion of macro 'XPAR_PS7_SCUTIMER_0_BASEADDR'
+ unsigned int * const TIMER_CONFIG_PTR = XPAR_PS7_SCUTIMER_0_BASEADDR + 0x08;
+                                         ^
+../../homogSmooth_bsp/ps7_cortexa9_0/include/xparameters.h:393:38: warning: initialization makes pointer from integer without a cast
+ #define XPAR_PS7_SCUTIMER_0_BASEADDR 0xF8F00600
+                                      ^
+../src/MaskCreator.c:141:39: note: in expansion of macro 'XPAR_PS7_SCUTIMER_0_BASEADDR'
+ unsigned int * const TIMER_LOAD_PTR = XPAR_PS7_SCUTIMER_0_BASEADDR;
+                                       ^
+../src/MaskCreator.c: In function 'setHomography':
+../src/MaskCreator.c:190:5: warning: "/*" within comment [-Wcomment]
+     /*{{.0002123,-.0020588,0.5288135},
+ ^
+../src/MaskCreator.c: In function 'main':
+../src/MaskCreator.c:667:15: warning: assignment makes pointer from integer without a cast
+     maskAddr0 = BRAM_BASEADDR0;
+               ^
+../src/MaskCreator.c:668:15: warning: assignment makes pointer from integer without a cast
+     maskAddr1 = BRAM_BASEADDR1;
+               ^
+../src/MaskCreator.c:669:20: warning: assignment makes pointer from integer without a cast
+     gpioBrightAddr = GPIO_BRIGHT_BASEADDR;
+                    ^
+../src/MaskCreator.c:670:20: warning: assignment makes pointer from integer without a cast
+     gpioThreshAddr = GPIO_THRESH_BASEADDR;
+                    ^
+Finished building: ../src/MaskCreator.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../homogSmooth_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/uartControl.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uartControl.o" -I../../homogSmooth_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/uartControl.d" -MT"src/uartControl.d" -o "src/uartControl.o" "../src/uartControl.c"
+In file included from ../src/uartControl.c:8:0:
+../../homogSmooth_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../homogSmooth_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+Finished building: ../src/uartControl.c
+ 
+Building target: homogSmooth.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../homogSmooth_bsp/ps7_cortexa9_0/lib -o "homogSmooth.elf"  ./src/MaskCreator.o ./src/platform.o ./src/uartControl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: homogSmooth.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size homogSmooth.elf  |tee "homogSmooth.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 106088	   3168	122411388	122520644	74d8444	homogSmooth.elf
+Finished building: homogSmooth.elf.size
+ 
+
+16:50:44 Build Finished (took 1s.207ms)
+

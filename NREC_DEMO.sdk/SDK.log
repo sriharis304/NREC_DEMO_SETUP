@@ -1,0 +1,110 @@
+16:26:46 INFO  : Processing command line option -hwspec /home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper.hdf.
+16:26:51 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+16:26:55 INFO  : XSDB server has started successfully.
+16:34:57 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+16:34:59 INFO  : XSDB server has started successfully.
+16:35:00 INFO  : Processing command line option -hwspec /home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper.hdf.
+16:35:02 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:35:37 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+16:35:39 INFO  : XSDB server has started successfully.
+16:35:40 INFO  : Processing command line option -hwspec /home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper.hdf.
+16:35:43 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:36:37 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+16:36:42 INFO  : Processing command line option -hwspec /home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper.hdf.
+16:36:44 INFO  : XSDB server has started successfully.
+16:36:44 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:39:46 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:436)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:40:09 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:436)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:40:59 INFO  : System reset is completed.
+16:41:03 INFO  : FPGA configured successfully with bitstream "/home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:41:04 INFO  : ps7_init is completed.
+16:41:04 INFO  : ps7_post_config is completed.
+16:43:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:43:13 INFO  : System reset is completed.
+16:43:17 INFO  : FPGA configured successfully with bitstream "/home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:43:18 INFO  : ps7_init is completed.
+16:43:18 INFO  : ps7_post_config is completed.
+16:44:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:44:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:49:47 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:23:09 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+17:23:11 INFO  : XSDB server has started successfully.
+17:23:14 INFO  : Processing command line option -hwspec /home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper.hdf.
+17:23:17 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:23:56 INFO  : System reset is completed.
+17:24:00 INFO  : FPGA configured successfully with bitstream "/home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:24:00 INFO  : ps7_init is completed.
+17:24:00 INFO  : ps7_post_config is completed.
+17:24:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:24:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:24:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:24:55 INFO  : System reset is completed.
+17:24:59 INFO  : FPGA configured successfully with bitstream "/home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:25:00 INFO  : ps7_init is completed.
+17:25:00 INFO  : ps7_post_config is completed.
+17:25:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:25:24 INFO  : System reset is completed.
+17:25:28 INFO  : FPGA configured successfully with bitstream "/home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:25:28 INFO  : ps7_init is completed.
+17:25:28 INFO  : ps7_post_config is completed.
+17:31:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:31:31 INFO  : System reset is completed.
+17:31:37 INFO  : FPGA configured successfully with bitstream "/home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:31:44 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot write to target
+
+
+    AP transaction error (DP CTRL_STAT=0xf0000021)
+    Error Address = 0xf8000008
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1073)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:486)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:32:37 INFO  : System reset is completed.
+17:32:42 INFO  : FPGA configured successfully with bitstream "/home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:32:43 INFO  : ps7_init is completed.
+17:32:43 INFO  : ps7_post_config is completed.
+17:33:08 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:33:55 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+17:33:56 INFO  : XSDB server has started successfully.
+17:33:59 INFO  : Processing command line option -hwspec /home/ilim/Documents/Headlight/NREC_truck_setup/NREC_DEMO.sdk/design_1_wrapper.hdf.
+17:34:01 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:34:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:35:16 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Synth_Ford_Demo" LaunchDir="/home/ilim/Documents/Headlight/NREC_truck_setup/a.runs/Synth_Ford_Demo" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Impl_FORD_DEMO" LaunchDir="/home/ilim/Documents/Headlight/NREC_truck_setup/a.runs/Impl_FORD_DEMO" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="Synth_Ford_Demo"/>
+	</Run>
+</Runs>
+

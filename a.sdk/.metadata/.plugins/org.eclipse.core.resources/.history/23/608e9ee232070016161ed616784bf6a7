@@ -1,0 +1,15 @@
+#define GPIO_BASEADDR 0x41200000
+#define GPIO_THRESH_BASEADDR 0x41210000
+
+
+
+char* gpioAddr;
+int roadPosition;
+int roadSize;
+int calibrate;
+
+//UART Variables and Prototypes//
+
+
+int setupUartControl();
+

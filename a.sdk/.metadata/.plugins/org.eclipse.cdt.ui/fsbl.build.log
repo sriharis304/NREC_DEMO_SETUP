@@ -1,0 +1,6 @@
+16:50:22 **** Auto Build of configuration Debug for project fsbl ****
+make all 
+src/subdir.mk:71: *** target pattern contains no `%'.  Stop.
+
+16:50:22 Build Finished (took 209ms)
+

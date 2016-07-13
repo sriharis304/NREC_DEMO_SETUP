@@ -1,0 +1,20 @@
+#define GPIO_BRIGHT_BASEADDR 0x41200000
+#define GPIO_THRESH_BASEADDR 0x41210000
+
+
+
+char* gpioBrightAddr;
+char* gpioThreshAddr;
+int roadPosition;
+int roadSize;
+int calibrate;
+int cross_row;
+int start_blink;
+int start_recording;
+int playback;
+
+//UART Variables and Prototypes//
+
+
+int setupUartControl();
+

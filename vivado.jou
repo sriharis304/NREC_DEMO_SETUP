@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu May 12 03:36:15 2016
+# Process ID: 4486
+# Log file: /home/ilim/Documents/HeadlightShit/Headlight_antiglare_wit_arm_srihari/vivado.log
+# Journal file: /home/ilim/Documents/HeadlightShit/Headlight_antiglare_wit_arm_srihari/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project a.xpr
+reset_run syn_no_flatten
+launch_runs impl_4 -to_step write_bitstream
+wait_on_run impl_4
+open_run syn_no_flatten -name syn_no_flatten
+delete_debug_core [get_debug_cores {u_ila_0 u_ila_1 u_ila_2 }]
+save_constraints
+reset_run impl_4
+launch_runs impl_4 -to_step write_bitstream
+wait_on_run impl_4
+close_design
+open_run impl_4
+open_bd_design {/home/ilim/Documents/HeadlightShit/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/design_1.bd}
+report_ip_status -name ip_status 
+reset_run impl_4 -prev_step 
+launch_runs impl_4 -to_step write_bitstream
+wait_on_run impl_4
+reset_run impl_4 -prev_step 
+reset_run syn_no_flatten
+launch_runs syn_no_flatten
+wait_on_run syn_no_flatten
+launch_runs impl_4
+wait_on_run impl_4
+launch_runs impl_4 -to_step write_bitstream
+wait_on_run impl_4
+file copy -force /home/ilim/Documents/HeadlightShit/Headlight_antiglare_wit_arm_srihari/a.runs/impl_4/design_1_wrapper.sysdef /home/ilim/Documents/HeadlightShit/Headlight_antiglare_wit_arm_srihari/a.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /home/ilim/Documents/HeadlightShit/Headlight_antiglare_wit_arm_srihari/a.sdk -hwspec /home/ilim/Documents/HeadlightShit/Headlight_antiglare_wit_arm_srihari/a.sdk/design_1_wrapper.hdf
+launch_sdk -workspace /home/ilim/Documents/HeadlightShit/Headlight_antiglare_wit_arm_srihari/a.sdk -hwspec /home/ilim/Documents/HeadlightShit/Headlight_antiglare_wit_arm_srihari/a.sdk/design_1_wrapper.hdf
